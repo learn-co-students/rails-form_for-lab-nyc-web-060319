@@ -1607,3 +1607,11 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 20ms (Views: 11.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/students/new" for ::1 at 2019-06-28 12:06:25 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 597ms (Views: 580.6ms | ActiveRecord: 0.0ms)
+
+

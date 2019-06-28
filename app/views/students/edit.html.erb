@@ -1,1 +1,7 @@
-aef
+<h1>Student Form</h1>
+<%=form_tag '/students', method: :patch do%>
+    First name: <%=text_field_tag 'student_first_name', @student.first_name%>
+    <br>
+    Last name: <%=text_field_tag 'student_last_name', @student.last_name%>
+    <%=submit_tag 'Update Student'%>
+<%end%> 

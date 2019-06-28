@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   post '/create', to: 'school_class#create'
 
   resources :students, only: [:index, :show, :create, :new, :edit]
+  patch '/students', to: 'student#update'
 end
