@@ -1,0 +1,7 @@
+<h1>School Class Form</h1>
+<%=form_for(@schoolclass) do%>
+    Class name: <%=text_field_tag 'school_class_title', @schoolclass.title%>
+    <br>
+    Room number: <%=text_field_tag 'school_class_room_number', @schoolclass.room_number%>
+    <%=submit_tag 'Update School class'%>
+<%end%> 
