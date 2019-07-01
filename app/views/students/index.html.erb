@@ -1,0 +1,4 @@
+<h1>This is all the students in the database.</h1>
+<% @students.each do |student|%>
+<%= student.first_name + " " + student.last_name %>
+<%end%>
